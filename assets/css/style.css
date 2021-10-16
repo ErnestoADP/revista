@@ -192,12 +192,12 @@ table {
     display: none;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 200px) {
   .nav {
     width: 69%;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 200px) {
   .logo {
     width: 29%;
   }
@@ -256,6 +256,10 @@ table {
 }
 .contenido .listad-noticias .cuerpo > img {
   width: 100%;
+}
+.contenido .linkGit {
+  color: white;
+  text-decoration: none;
 }
 
 .listado-izquierdo {
