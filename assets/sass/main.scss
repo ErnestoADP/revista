@@ -1,0 +1,27 @@
+/*url google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/*variables*/
+
+@import './abstracts/variables';
+
+/*reset*/
+
+@import'./base/reset';
+
+/*components*/
+
+@import './components/_buttom';
+@import './components/_input';
+@import './components/_nav';
+@import './components/form';
+
+/*layout  footer section*/
+
+@import './layout/footer';
+@import './layout/section';
+
+/*pages*/
+
+@import'./pages/home';

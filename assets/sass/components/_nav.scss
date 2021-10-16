@@ -1,0 +1,52 @@
+.menu {
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    & .nav {
+        display: inline-block;
+        width: 49%;
+    }
+    & .nav>ul {
+        text-align: right;
+    }
+    & .nav>ul>li>a {
+        text-decoration: none;
+        color: $color_black;
+    }
+    & .nav>ul>li {
+        display: inline-block;
+        list-style: none;
+        padding: 2px 4px;
+    }
+    & .logo {
+        display: inline-block;
+        width: 49%;
+    }
+    & .logo>span {
+        font-weight: 600;
+        font-size: 27px;
+        font-weight: bold;
+        text-transform: uppercase !important;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 767.98px) {
+    .nosotros {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .nav {
+        width: 69%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logo {
+        width: 29%;
+    }
+}
